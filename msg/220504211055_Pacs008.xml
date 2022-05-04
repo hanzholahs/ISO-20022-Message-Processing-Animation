@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.09">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>1122334455</MsgId>
+      <CreDtTm>2022-05-04T21:10:55</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>CLRG</SttlmMtd>
+        <ClrSys>
+          <Cd>RTG</Cd>
+        </ClrSys>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <EndToEndId>11232-ASA-1</EndToEndId>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="IDR">20000000</IntrBkSttlmAmt>
+      <ChrgBr>CRED</ChrgBr>
+      <Dbtr>
+        <Nm>Bambang Soetardjo</Nm>
+        <PstlAdr>
+          <StrtNm>Kebun Sawit St.</StrtNm>
+          <BldgNb>19A</BldgNb>
+          <PstCd>13254</PstCd>
+          <TwnNm>Jakarta Selatan</TwnNm>
+          <CtrySubDvsn>DKI Jakarta</CtrySubDvsn>
+          <Ctry>ID</Ctry>
+        </PstlAdr>
+        <Id>
+          <PrvtId>
+            <DtAndPlcOfBirth>
+              <BirthDt>1980-12-02</BirthDt>
+              <PrvcOfBirth>DKI Jakarta</PrvcOfBirth>
+              <CityOfBirth>Jakarta Selatan</CityOfBirth>
+              <CtryOfBirth>ID</CtryOfBirth>
+            </DtAndPlcOfBirth>
+            <Othr>
+              <Id>3180320212800021</Id>
+              <Issr>Dukcapil</Issr>
+            </Othr>
+          </PrvtId>
+        </Id>
+        <CtryOfRes>ID</CtryOfRes>
+        <CtctDtls>
+          <MobNb>+62-81831412</MobNb>
+          <EmailAdr>Bambangsoe@goodmail.com</EmailAdr>
+        </CtctDtls>
+      </Dbtr>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>BMBRIDJA</BICFI>
+          <ClrSysMmbId>
+            <MmbId>BMBR-1231412</MmbId>
+          </ClrSysMmbId>
+          <Nm>Bank Mandiri Bersama</Nm>
+          <PstlAdr>
+            <StrtNm>Cokelat Panas St.</StrtNm>
+            <BldgNb>12</BldgNb>
+            <BldgNm>Kantor Pusat BMB</BldgNm>
+            <Flr>1</Flr>
+            <PstCd>13254</PstCd>
+            <TwnNm>Jakarta Selatan</TwnNm>
+            <CtrySubDvsn>DKI Jakarta</CtrySubDvsn>
+            <Ctry>ID</Ctry>
+          </PstlAdr>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>BBSJIDJA</BICFI>
+          <ClrSysMmbId>
+            <MmbId>BBSJ-4293810</MmbId>
+          </ClrSysMmbId>
+          <Nm>Bank Bumi Selatan Jaya</Nm>
+          <PstlAdr>
+            <StrtNm>Jakarta Raya St.</StrtNm>
+            <BldgNb>31</BldgNb>
+            <BldgNm>Kantor Bumi Selatan Jaya</BldgNm>
+            <Flr>1</Flr>
+            <PstCd>15623</PstCd>
+            <TwnNm>Jakarta Barat</TwnNm>
+            <CtrySubDvsn>DKI Jakarta</CtrySubDvsn>
+            <Ctry>ID</Ctry>
+          </PstlAdr>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>PT Rembulan Sejati</Nm>
+        <PstlAdr>
+          <StrtNm>Cokelat Pagi St.</StrtNm>
+          <BldgNb>100AB</BldgNb>
+          <BldgNm>Menara Indah Tower</BldgNm>
+          <Flr>21</Flr>
+          <PstCd>13254</PstCd>
+          <TwnNm>Jakarta Selatan</TwnNm>
+          <CtrySubDvsn>DKI Jakarta</CtrySubDvsn>
+          <Ctry>ID</Ctry>
+        </PstlAdr>
+        <Id>
+          <OrgId>
+            <AnyBIC>ARTHIDJA</AnyBIC>
+            <Othr>
+              <Id>114242526437</Id>
+              <Issr>OSS</Issr>
+            </Othr>
+          </OrgId>
+        </Id>
+        <CtryOfRes>ID</CtryOfRes>
+        <CtctDtls>
+          <PhneNb>+62-21214238</PhneNb>
+          <FaxNb>+62-21214238</FaxNb>
+          <EmailAdr>Contact@rembulansejati.com</EmailAdr>
+        </CtctDtls>
+      </Cdtr>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>
