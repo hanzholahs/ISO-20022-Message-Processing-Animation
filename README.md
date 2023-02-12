@@ -1,4 +1,4 @@
-﻿# ISO-20022-Message-Processing-Animation
+# ISO 20022 Message Processing Animation
 
 This application simulates the processing of ISO 20022 financial messages in a simple scenario involving 3 parties (2 Financial Institutions e.g. Banks, and Payment and Clearing Systems e.g. RTGS System). The app is developed to aid non-IT people understanding what information in ISO 20022 messages represent and how the messages are processed.
 
